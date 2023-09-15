@@ -57,6 +57,7 @@ h1 {
 }
 .header-layout {
   display: flex;
+  margin-top: -70px;
   align-items: center;
   justify-content: center;
 }
