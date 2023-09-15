@@ -1,0 +1,158 @@
+:root {
+  --jet-black: #1b1212;
+  --orange: #ff5f1f;
+  --white: #ffffff;
+}
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: sans-serif;
+  margin: auto;
+}
+main {
+}
+h1,
+h2 {
+  margin: 0;
+}
+input {
+  border-radius: 18px;
+}
+svg {
+  width: 60px;
+  height: 60px;
+  fill: white;
+  background: rgb(195, 34, 156);
+  background: linear-gradient(
+    0deg,
+    rgba(195, 34, 156, 1) 0%,
+    rgba(253, 135, 45, 1) 100%
+  );
+  border-radius: 50%;
+}
+button {
+  border-radius: 30px;
+  transition: all 0.8s ease;
+}
+button:hover {
+  width: 300px;
+}
+a {
+  color: var(--white);
+  margin-bottom: 14px;
+  font-size: 14px;
+}
+hr {
+  display: flex;
+  width: 40vw;
+  margin-top: 30px;
+}
+h1 {
+  font-size: 24px;
+  font-family: sans-serif;
+  font-weight: 400;
+  letter-spacing: 6.2px;
+  margin: 150px 0 100px 0;
+}
+.header-layout {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.left-site {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  color: var(--white);
+  height: 1400px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin: 0;
+  background-color: var(--jet-black);
+}
+.right-site {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: url(/images/moon.jpg);
+  height: 1400px;
+  mask-repeat: no-repeat;
+  background-size: cover;
+}
+.right-content-layout {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.right-site h2 {
+  font-size: 50px;
+  font-family: sans-serif;
+  font-weight: 500;
+  margin-bottom: 40px;
+  color: var(--white);
+}
+.right-site button {
+  width: 80vw;
+  height: 50px;
+  color: var(--white);
+  background-color: transparent;
+  border: 1px solid white;
+  backdrop-filter: blur(18px);
+}
+.form {
+  display: flex;
+  width: 80vw;
+  align-items: center;
+  flex-direction: column;
+}
+.form input {
+  width: 80vw;
+  height: 50px;
+  background-color: var(--jet-black);
+  border: 1px solid gray;
+  border-radius: 30px;
+}
+.form input:last-of-type {
+  margin-bottom: 30px;
+}
+.form p {
+  font-size: 14px;
+}
+.sign-in {
+  width: 40vw;
+  height: 50px;
+  background: rgb(195, 34, 156);
+  background: linear-gradient(
+    0deg,
+    rgba(195, 34, 156, 1) 0%,
+    rgba(253, 135, 45, 1) 100%
+  );
+  color: var(--white);
+  outline: none;
+  border: none;
+  margin-bottom: 40px;
+  margin-top: 50px;
+}
+.create-account {
+  width: 60vw;
+  height: 40px;
+  background-color: var(--jet-black);
+  color: var(--white);
+  border: 1px solid gray;
+  margin-top: 32px;
+  margin-bottom: 130px;
+}
+.email-paragraph {
+  display: flex;
+  align-self: flex-start;
+}
+.password-paragraph {
+  display: flex;
+  align-self: flex-start;
+}
+.policy-use-paragraph {
+  color: var(--orange);
+}
